@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    background-color: #fd7e14;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+.container-relative {
+    position: relative;
+    height: 80vh;
+    width: 32%;
+    z-index: 1;
+    background: linear-gradient(to top left, #fd7e14 50%, white 50%);
+}
+
+
+.container-input {
+    position: absolute;
+    height: 58vh;
+    width: 35%;
+    border-radius: 20px;
+    z-index: 2;
+    border: 3px solid whitesmoke;
+    margin-left: 10%;
+    margin-top: 15vh;
+    background-color: white;
+
+
+}
+
+
+
+.h2 {
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.input {
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+
+.input2 {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+
+#input {
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 17px;
+    padding: 20px;
+    border: 3px solid whitesmoke;
+
+}
+
+.button {
+    text-align: center;
+    margin-top: 4%;
+}
+
+#button {
+    height: 50px;
+    width: 55%;
+    border-radius: 30px;
+    background-color: #fd7e14;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+/* container-input */
+
+
+.container-contact {
+    position: absolute;
+    z-index: 3;
+    height: 65vh;
+    width: 35%;
+    margin: 15vh;
+    margin-left: 45%;
+    border-radius: 30px;
+    padding-left: 60px;
+    padding-top: 50px;
+
+
+
+}
+
+.say h1 {
+    color: #E9C46A;
+}
+
+.say h2 {
+    font-size: 45px;
+    font-family: Arial, sans-serif;
+
+}
+
+.london {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+.number {
+    margin-top: 8px;
+
+}
+
+#number {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#info {
+    text-decoration: none;
+    color: white;
+}
+
+.info {
+    margin-top: 5px;
+}
+
+#social {
+    color: #E9C46A;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 48px 0px 16px;
+
+}
+
+.fa-brands {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 50%;
+
+}
+
+.fa-brands1 {
+    margin-left: 15px;
+}
+
+
+.copyright-text {
+    margin-top: 20px;
+    color: white;
+}
+
+
+.desgined-text {
+    color: #E9C46A;
+    margin-top: 20px;
+}
